@@ -19,19 +19,33 @@ p {
     height: 500px;
     width: fit-content;
 }
-#divdiscover{
-    
+
+#divdiscover {
+
     background-color: grey;
     padding: 20px;
     border: 5px outset grey;
 }
-#divyacht{
+
+#divyacht {
     padding: 20px;
     border: 1px;
 }
-.greydiv{
-     background-color: grey;
+
+.greydiv {
+    background-color: grey;
     padding: 20px;
     border: 5px outset grey;
 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: dodgerblue;
 }
