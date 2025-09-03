@@ -316,16 +316,6 @@ figcaption {
 }
 
 /* Tour Section */
-
-/* .contact-header {
-    margin-top: 50px;
-    width: 100vw;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-} */
 .tour-button-container {
     display: flex;
     width: 100%;
@@ -342,7 +332,8 @@ figcaption {
     border-radius: 8px;
     box-shadow: 0 5px 15px #0c0c0c;
 }
-.package_content{
+
+.package_content {
     display: flex;
     justify-content: space-between;
 }
@@ -376,4 +367,19 @@ figcaption {
 .package_container button::after,
 .package_container button::after {
     border-radius: 3px;
+}
+
+/* About us section */
+.about-container {
+    padding: 20px;
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.about-container img {
+    max-width: 100%;
+    max-height: 100%;
 }
