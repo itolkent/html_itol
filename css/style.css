@@ -144,6 +144,7 @@ li {
 }
 
 .nav-footer a {
+
     padding: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-family: "Montserrat", sans-serif;
@@ -152,6 +153,7 @@ li {
     transition: color 0.3s, border-bottom 0.3s;
     padding-bottom: 5px;
     position: relative;
+
 
 }
 
@@ -214,11 +216,22 @@ li {
     color: #f0f8ff;
     font-size: 25px;
     padding: 10px;
+
 }
 
 .social-media-icon a:hover {
     color: #0000ff;
 
+}
+
+.head_container {
+    margin-top: 50px;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* GallerySection */
@@ -243,6 +256,7 @@ figure {
 
 
 }
+
 figure img {
     width: 100%;
     height: 300px;
@@ -257,12 +271,109 @@ figure img {
     box-shadow: 0px 0px 3px #ffffff;
     border: 3px solid #ffffff;
 }
-figcaption{
+
+figcaption {
     text-align: center;
-    background-color: rgba(255, 255, 255 ,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
     z-index: 1;
     text-transform: uppercase;
     position: absolute;
     bottom: 6px;
+}
+
+/* Contact Section */
+.contact-header {
+    margin-top: 50px;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form {
+    border-radius: 10px;
+    text-align: left;
+    background-color: #545459;
+    color: #e6e6e6;
+    padding: 20px;
+    width: 30%;
+    border: 5px black;
+
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.tour-button {
+
+    align-self: center;
+}
+
+/* Tour Section */
+
+/* .contact-header {
+    margin-top: 50px;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+} */
+.tour-button-container {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+
+}
+
+.package_container {
+    padding: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    width: 100%;
+    background-color: #9c9a9a;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px #0c0c0c;
+}
+.package_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.package_container button {
+    align-self: flex-end;
+    border-radius: 3px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #f0f8ff;
+    outline: none;
+}
+
+.package_container button:hover {
+    background-color: #515055;
+    color: #0000ff;
+}
+
+.package_container button:active {
+    transform: translate(3px);
+}
+
+.package_container button::after,
+.package_container button::after {
+    border-radius: 3px;
 }

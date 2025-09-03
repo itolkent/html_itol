@@ -8,6 +8,11 @@
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
+    <meta charset="UTF-8">
+    <meta name="description" content="Yachting Tours Page">
+    <meta name="keywords" content="Yachting, yacht, sail,water,holidays">
+    <meta name="author" content="Kent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -22,12 +27,36 @@
         </ul>
 
     </nav>
-    <h1>
-        Contact
-    </h1>
+
+    <div class="contact-header">
+        <h1>
+            Send us a message:
+        </h1>
+        <section class="contact-form">
+            <form action="">
+                <label for="firsname">Firstname&nbsp</label>
+                <input type="text" id="input_firstname" name="firsname" value="Firstname">
+                <br>
+                <label for="surname  ">Surname&nbsp&nbsp&nbsp</label>
+                <input type="text" id="input_surname" name="surname" value="Surname">
+                <br>
+                <label for="email">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type="text" id="input_email" name="email" value="sample@gmail.com">
+                <br>
+                <label for="message">Message&nbsp&nbsp&nbsp</label>
+                <input type="text" id="input_message" name="message" value="Send us your message">
+                <br>
+                <div class="button-container">
+                    <button class="tour-button">Submit</button>
+                </div>
+            </form>
+        </section>
+
+
+    </div>
     <!-- Footer Section -->
     <footer>
-        <div class="divfooter">
+        <section class="divfooter">
 
             <p>&copy; 2025 Elegant Yachting Tours. All rights reserved.</p>
             <nav class="nav-footer">
@@ -40,12 +69,18 @@
                 </ul>
 
             </nav>
-            <p class="social-media-icon">
-                <a href="https://www.facebook.com/elegantyachting"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/elegantyachting"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.twitter.com/elegantyachting"><i class="fa-brands fa-twitter"></i></a>
-            </p>
-        </div>
+            <div class="social-media-icon">
+                <p>
+                    <a href="https://www.facebook.com/elegantyachting" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/elegantyachting" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/elegantyachting" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </p>
+            </div>
+
+        </section>
 
     </footer>
 </body>
