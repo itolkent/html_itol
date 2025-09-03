@@ -303,12 +303,23 @@ figcaption {
     border: 5px black;
 
 }
-
-.button-container {
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact-button-container{
     display: flex;
     width: 100%;
     justify-content: center;
 }
+
+
 
 .tour-button {
 
